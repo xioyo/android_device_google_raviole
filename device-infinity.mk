@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay-infinity
 
 # ANGLE - Almost Native Graphics Layer Engine
 PRODUCT_PACKAGES += \
@@ -17,6 +17,9 @@ PRODUCT_COPY_FILES += \
 # IWLAN
 PRODUCT_PACKAGES += \
     Iwlan
+
+# PixelParts
+include packages/apps/PixelParts/device.mk
 
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
