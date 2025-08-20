@@ -8,6 +8,14 @@
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# LunarisOS Flags
+TARGET_OPTIMIZED_DEXOPT := true
+WITH_BCR := true
+WITH_GMS := true
+TARGET_USES_CORE_GAPPS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+TARGET_PIXEL_BOOT_ANIMATION_RES := 1080
+
 # Inherit device configuration
 DEVICE_CODENAME := oriole
 DEVICE_PATH := device/google/raviole
