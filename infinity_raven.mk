@@ -10,6 +10,7 @@ $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Infinity-X Flags
 WITH_GAPPS := true
+INFINITY_BUILD_TYPE := OFFICIAL
 INFINITY_MAINTAINER := xioyo
 TARGET_HAS_UDFPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
