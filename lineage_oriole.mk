@@ -12,7 +12,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_OPTIMIZED_DEXOPT := true
 WITH_BCR := true
 WITH_GMS := true
-TARGET_USES_CORE_GAPPS := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
 TARGET_PIXEL_BOOT_ANIMATION_RES := 1080
 
