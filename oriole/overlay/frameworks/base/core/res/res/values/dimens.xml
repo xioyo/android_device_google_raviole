@@ -18,5 +18,6 @@
 <resources>
     <!-- Default paddings for content around the corners. -->
     <dimen name="rounded_corner_content_padding">14dp</dimen>
+    <dimen name="status_bar_height">41.142857143dp</dimen>
 </resources>
 
