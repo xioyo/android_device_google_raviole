@@ -9,7 +9,6 @@ TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # LunarisOS Flags
-TARGET_OPTIMIZED_DEXOPT := true
 WITH_BCR := true
 WITH_GMS := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
