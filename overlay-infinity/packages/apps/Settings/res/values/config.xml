@@ -20,4 +20,7 @@
 
     <!-- Whether the device supports wireless charging or not -->
     <bool name="config_deviceSupportsWirelessCharging">true</bool>
+     
+    <!-- Show Now Playing -->
+    <bool name="config_show_now_playing">true</bool>
 </resources>
