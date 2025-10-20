@@ -9,7 +9,7 @@ TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Infinity-X Flags
-WITH_GAPPS := true
+WITH_GAPPS := false
 INFINITY_BUILD_TYPE := OFFICIAL
 INFINITY_MAINTAINER := xioyo
 TARGET_HAS_UDFPS := true
