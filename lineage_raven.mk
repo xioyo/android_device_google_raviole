@@ -13,6 +13,7 @@ WITH_BCR := true
 WITH_GMS := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
 TARGET_PIXEL_BOOT_ANIMATION_RES := 1080
+TARGET_CUSTOM_UDFPS := true
 
 # Inherit device configuration
 DEVICE_CODENAME := raven
