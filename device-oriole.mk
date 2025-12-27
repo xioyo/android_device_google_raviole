@@ -23,7 +23,7 @@ $(call soong_config_set,raviole_bootloader,prebuilt_dir,$(RELEASE_GOOGLE_BOOTLOA
 
 
 TARGET_LINUX_KERNEL_VERSION := $(RELEASE_KERNEL_ORIOLE_VERSION)
-TARGET_KERNEL_DIR ?= device/google/raviole-kernels/lineage
+TARGET_KERNEL_DIR ?= device/google/raviole-kernels/aosp
 TARGET_BOARD_KERNEL_HEADERS ?= $(TARGET_KERNEL_DIR)/kernel-headers
 
 DEVICE_PACKAGE_OVERLAYS += device/google/raviole/oriole/overlay
