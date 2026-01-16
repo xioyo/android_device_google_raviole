@@ -7,6 +7,9 @@
 # Inherit some common stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# EvolutionX Flags
+TARGET_HAS_UDFPS := true
+
 # Inherit device configuration
 DEVICE_CODENAME := raven
 DEVICE_PATH := device/google/raviole
