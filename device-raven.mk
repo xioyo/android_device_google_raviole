@@ -11,8 +11,8 @@ TARGET_KERNEL_DIR := device/google/$(TARGET_KERNEL_DEVICE)-kernels/$(TARGET_LINU
 TARGET_KERNEL_PLATFORM_SOURCE := google/gs-$(TARGET_LINUX_KERNEL_VERSION)
 
 DEVICE_PACKAGE_OVERLAYS += device/google/raviole/raven/overlay
-DEVICE_PACKAGE_OVERLAYS += device/google/raviole/raven/overlay-lineage
-DEVICE_PACKAGE_OVERLAYS += device/google/raviole/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/raviole/raven/overlay-infinity
+DEVICE_PACKAGE_OVERLAYS += device/google/raviole/overlay-infinity
 
 include device/google/gs101/device-shipping-common.mk
 
@@ -20,6 +20,12 @@ include device/google/gs101/device-shipping-common.mk
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.prebuilt.xml \
     android.hardware.bluetooth_le.prebuilt.xml
+
+# Camera
+$(call inherit-product-if-exists, vendor/google/camera/config.mk)
+
+# Pixel Parts
+$(call inherit-product-if-exists, packages/apps/PixelParts/device.mk)
 
 # UWB
 PRODUCT_COPY_FILES += \

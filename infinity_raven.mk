@@ -5,7 +5,15 @@
 #
 
 # Inherit some common stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+
+# Infinity-X Flags
+WITH_GAPPS := true
+INFINITY_BUILD_TYPE := OFFICIAL
+INFINITY_MAINTAINER := xioyo
+TARGET_HAS_UDFPS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_EXCLUDES_AUDIOFX := true
 
 # Inherit device configuration
 DEVICE_CODENAME := raven
@@ -16,7 +24,7 @@ $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 6 Pro
-PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
+PRODUCT_NAME := infinity_$(DEVICE_CODENAME)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3120
