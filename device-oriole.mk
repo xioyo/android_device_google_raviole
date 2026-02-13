@@ -96,10 +96,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors-V2-ndk.vendor:64
 
-# HBM
-PRODUCT_PACKAGES += \
-    HbmSVManagerOverlay
-
 # Init
 PRODUCT_PACKAGES += \
     init.recovery.oriole.touch.rc
