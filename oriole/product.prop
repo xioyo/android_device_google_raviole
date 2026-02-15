@@ -13,6 +13,9 @@ persist.vendor.fingerprint.disable.fake.override=none
 # Google keyboard
 ro.com.google.ime.kb_pad_port_b=10
 
+# Maintiner
+ro.lunaris.maintainer=xioyo
+
 # Quick start
 ro.quick_start.device_id=oriole
 ro.quick_start.oem_id=00e0
