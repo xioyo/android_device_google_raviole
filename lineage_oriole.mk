@@ -10,6 +10,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # LunarisOS Flags
 WITH_BCR := true
 WITH_GMS := true
+LUNARIS_BUILD_TYPE := OFFICIAL
 TARGET_CUSTOM_UDFPS := true
 TARGET_OPTIMIZED_DEXOPT := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
