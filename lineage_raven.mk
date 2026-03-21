@@ -7,6 +7,19 @@
 # Inherit some common stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# LunarisOS Flags
+WITH_BCR := true
+WITH_GMS := true
+LUNARIS_BUILD_TYPE := OFFICIAL
+TARGET_CUSTOM_UDFPS := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_PIXEL_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
+PRODUCT_NO_CAMERA := true
+HBM_SUPPORTED := true
+HBM_NODE := /sys/class/backlight/panel0-backlight/hbm_mode
+
 # Inherit device configuration
 DEVICE_CODENAME := raven
 DEVICE_PATH := device/google/raviole
