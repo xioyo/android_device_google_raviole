@@ -11,6 +11,10 @@ ro.gms.dck.eligible_wcc=2
 # Display
 ro.surface_flinger.set_idle_timer_ms=1500
 
+# ScrollOptimizer
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=1
+
 # SVN
 ro.vendor.build.svn=07
 

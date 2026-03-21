@@ -6,5 +6,8 @@ persist.bluetooth.opus.enabled=true
 ro.com.google.ime.kb_pad_port_l=11
 ro.com.google.ime.kb_pad_port_r=11
 
+# Maintiner
+ro.lunaris.maintainer=xioyo
+
 # Quick start
 ro.quick_start.device_id=raven
