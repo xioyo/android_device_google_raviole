@@ -8,7 +8,7 @@
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Infinity-X Flags
-WITH_GAPPS := true
+WITH_GAPPS := false
 INFINITY_BUILD_TYPE := OFFICIAL
 INFINITY_MAINTAINER := xioyo
 PRODUCT_NO_CAMERA := true
